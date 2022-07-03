@@ -92,7 +92,7 @@ public class SampleClient {
 		// 2) Modify 'SampleClient' so that instead of searching for patients with last name 'SMITH', it reads in the contents of this file and for each last name queries for patients with that last name
 		StopWatch stopWatch = new StopWatch(new Date());
 		stopWatch.startTask("loop-2");
-		File myObj = new File("C:\\Users\\Mehmood\\git\\playground-basic\\src\\main\\java\\patientfile.txt"); // Specify the filename
+		File myObj = new File("C:\Users\Mehmood\Downloads\Compressed\playground-basic\src\main\java\\patientfile.txt"); // Specify the filename
 		
 		Scanner read = new Scanner(myObj);
 		while(read.hasNext()) {
